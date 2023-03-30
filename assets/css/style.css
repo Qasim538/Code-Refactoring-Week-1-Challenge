@@ -111,7 +111,13 @@ h2 {
     font-size: 36px;
 }
 
-.search-engine-optimization {
+
+/* consolidated all 3 classes to avoide repetition.  */
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing
+ {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,27 +126,6 @@ h2 {
     color: #ffffff;
     border-radius: 10px;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    border-radius: 10px;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    border-radius: 10px;
-}
-
 
 
 /* ----------------   Benefit Section  ------------------ */
@@ -157,21 +142,13 @@ h2 {
     border-radius: 10px;
 }
 
-.benefit-lead {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost 
+ {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 
 
 
@@ -203,7 +180,7 @@ to keep it simple and short. */
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
 
